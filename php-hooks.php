@@ -559,6 +559,10 @@ if (!class_exists('Hooks')){
     }
   }//end class
 }//end if
-global $hooks;
-$hooks = new Hooks();
-$hooks->do_action('After_Hooks_Setup',$hooks);
+
+/** 
+ run manually
+*/
+// global $phphooks;
+//$phphooks = new Hooks();
+//$phphooks->do_action('After_Hooks_Setup',$phphooks);
